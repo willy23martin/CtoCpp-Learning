@@ -7,6 +7,7 @@ int main()
 
     int x,y,z,result;
 
+    /*Less efficient code*/
     printf("Enter an integer x:\n");
     scanf("%d",&x);
 
@@ -15,6 +16,14 @@ int main()
 
     printf("Enter an integer z:\n");
     scanf("%d",&z);
+
+    result = x*y*z;
+    printf("The product is %d:\n", result);
+
+    /*Most efficient code*/
+
+    printf("Enter three integers x,y and z:\n");
+    scanf("%d%d%d",&x, &y, &z);
 
     result = x*y*z;
     printf("The product is %d:\n", result);
