@@ -1,6 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+/*
+Exercises reference: Book "C how To Program, Introducing C++ and Java", Deitel&Deitel, Prentice Hall,
+2001, 3rd edition.
+*/
+
 int mainA()
 {
     /*A program will calculate the product of three integers*/
