@@ -7,7 +7,7 @@ on the same line, considering the following:
 2) Use one statements with four conversion specifiers.
 3) Use four statements.
 */
-int main(){
+int mainC(){
 
  /*1) Using one statement without conversion specifiers:*/
  printf("1 2 3 4\n");

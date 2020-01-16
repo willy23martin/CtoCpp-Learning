@@ -31,10 +31,16 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="largerNumber.c">
+			<Option compilerVar="CC" />
+		</Unit>
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="operations.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="printf.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Extensions>
