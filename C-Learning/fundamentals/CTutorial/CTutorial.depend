@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1578971530 source:c:\users\william\documents\personal_learning\c++\ctocpp-learning\c-learning\fundamentals\ctutorial\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1579054205 source:c:\users\william\documents\personal_learning\c++\ctocpp-learning\c-learning\fundamentals\ctutorial\operations.c
+	<stdio.h>
+
