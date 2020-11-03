@@ -64,8 +64,46 @@ int main() {
      std::cout << "Varibile decimale float: " << fl << " avec sa taglia in bytes: " << sizeof(fl) << " bytes \n" << std::endl;
 
      /**
+        Puntatore: a un indirizzo di memoria
+        - 0
+        - nullptr -> puntatore
 
+     int p = 90;
+     int *puntatore = nullptr;
+     std::cout << std::endl <<  "Variabile puntatore/puntatrice: " << *puntatore << " avec taglia: "  << " bytes\n";
+
+     puntatore = &p;
+     std::cout << std::endl << "Variabile puntatore/puntatrice: " << *puntatore << " avec taglia: "  << " bytes\n" << puntatore;
      */
+     /**
+     ENUM
+     */
+     enum MESE
+     {
+        GENNAIO = 1,
+        FEBBRAIO = 2,
+        MARZO = 3,
+        APRILE = 4,
+        MAGGIO = 5,
+        GIUGNO = 6,
+        LUGLIO = 7,
+        AGOSTO = 8,
+        SETTEMBRE= 9,
+        OTTOBRE = 10,
+        NOVEMBRE=11,
+        DICEMBRE = 12
+     };
+     MESE mese (MESE::GENNAIO);
+     mese = MESE::OTTOBRE;
+     std::cout << MESE::GENNAIO << std::endl;
+     std::cout << mese << std::endl;
+
+     /**
+     Arrays:
+     */
+     int i[10]{1,20,30,4,50,6,7,80,90,1};
+     std::cout << "Variabile elenco con puntatore:" << i << std::endl;
+     std::cout << "Variabile elenco:" << i[6] << std::endl;
 
     return 0;
 }
