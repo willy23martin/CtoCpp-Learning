@@ -1,3 +1,6 @@
+/**
+Linker process: #include <code to be linked>
+*/
 #include <iostream>
 
 int main() {
