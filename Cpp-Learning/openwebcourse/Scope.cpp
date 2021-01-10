@@ -11,9 +11,10 @@ Apprendimento da C a C++
 #include <locale>
 #include <iostream>
 
-int main(){
+int main()
+{
 
-    setlocale(LC_ALL, "Italian");
+    setlocale(LC_ALL, "italian");
 
     int numero = 2;
 
