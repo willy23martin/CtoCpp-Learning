@@ -24,6 +24,16 @@ int main(int argc, char *argv[]) {
 	cout << localGreetingNumber;
 	cout << "\n Pow of Local Greeting Number: ";
 	cout << pow(localGreetingNumber, 2);
+	
+	// Strings:
+	string wordA = "My word";
+	cout << "\n String A: ";
+	cout << wordA;
+	cout << "\n Last character of String A: ";
+	cout << wordA[wordA.length() -1];
+	cout << "\n Concatenations of Strings: ";
+	string wordB = " matters for who is receptive";
+	cout << wordA + wordB;
 	return 0;
 }
 
