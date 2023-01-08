@@ -1,4 +1,5 @@
 #include <iostream>
+#include<cmath>
 using namespace std;
 
 // Constants:
@@ -21,6 +22,8 @@ int main(int argc, char *argv[]) {
 	int localGreetingNumber = globalGreetingNumber + 7;
 	cout << "\n Local Greeting Number: ";
 	cout << localGreetingNumber;
+	cout << "\n Pow of Local Greeting Number: ";
+	cout << pow(localGreetingNumber, 2);
 	return 0;
 }
 
