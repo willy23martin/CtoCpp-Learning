@@ -21,7 +21,7 @@ int main()
     /*
     unsigned: non valori negativi.
     */
-    unsigned int eta = -28;
+    unsigned int eta = -28U; //U= Unsigned
     std::cout << "Età: " <<  eta << std::endl; // 4294967268
 
     /*
