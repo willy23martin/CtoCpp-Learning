@@ -34,6 +34,19 @@ int main(int argc, char *argv[]) {
 	cout << "\n Concatenations of Strings: ";
 	string wordB = " matters for who is receptive";
 	cout << wordA + wordB;
+	
+	// Stardand I/O:
+	int age;
+	string name;
+	cout << "\n Name: ";
+	getline(cin, name);
+	cout << "\n Your name is: " + name;
+	cin.ignore(); // To empty previous requested data via cin, in some cases only
+	cout << "\n Age: ";
+	cin >> age;
+	cout << "\n Your age is: ";
+	cout << age;
+	
 	return 0;
 }
 
